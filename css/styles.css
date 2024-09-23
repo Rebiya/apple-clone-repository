@@ -26,6 +26,7 @@ body {
   width: 980px;
   padding: 0 10px;
   margin: 0 auto;
+  text-align: center;
 }
 .header-wrapper .header-links-wrapper ul li a {
   text-decoration: none;
@@ -58,7 +59,24 @@ body {
 .header-wrapper .header-links-wrapper ul li.cart-link {
   padding: 12px 0 10px;
 }
-
+.main-highlight-wrapper{
+  background-color: #FBFBFD;
+}
+.model{
+  font-size: 16px;
+  margin:1vw auto;
+}
+.link{
+  margin: 5px auto;
+}
+.product-title{
+  font-weight: bolder;
+  font-size: 5vw;
+}
+.brief-description{
+  font-weight: 400;
+  font-size: 3.5vw;
+}
 .second-hightlight-wrapper {
   background-image: url("../images/home/iphone11-pro-bg.jpg");
   height: 580px;
@@ -75,11 +93,15 @@ body {
 }
 .description-wrapper {
   font-size: 26px;
-  padding: 10px 0;
+  padding: 15px 0;
 }
 .price-wrapper {
   color: #86868b;
   font-size: 0.85em;
+  margin: 10px auto;
+}
+.second-hightlight-wrapper .link a:hover{
+  color: #fff;
 }
 
 /* Third Highlight Section */
