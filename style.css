@@ -5,6 +5,132 @@
   text-decoration: none;
 }
 img {
+
+  max-width: 100;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+.container {
+  margin: 0 auto;
+  text-align: center;
+}
+.right {
+  background-size: cover;
+  background-position: center;
+  height: 580px;
+  width: 48.5%;
+  margin: 1% 1% 0% 0.5%;
+  padding-top: 54px;
+  text-align: center;
+  background-repeat: no-repeat;
+}
+.left {
+  background-size: cover;
+  background-position: center;
+  height: 580px;
+  text-align: center;
+  width: 48.5%;
+  margin: 1% 0.5% 0% 1%;
+  padding-top: 54px;
+  background-repeat: no-repeat;
+}
+
+.fourth-wrapper {
+  display: flex;
+}
+.fourth-wrapper .left {
+  background-image: url("../apple-clone-repository/images/home/watch-series-5.jpg");
+}
+
+.fourth-wrapper .right {
+  background-image: url("../apple-clone-repository/images/home/apple-card.jpg");
+}
+.logo {
+  padding-bottom: 10px;
+}
+.description-4 {
+  width: 430px;
+  padding: 10px ;
+  margin: 0.7% auto;
+}
+.leftdes{
+    margin: 2.3% auto;
+}
+.link a{
+    text-decoration: none;
+    color: rgb(4, 28, 147);
+}
+.link a:hover{
+color: black;
+}
+.fifth-wrapper {
+  display: flex;
+}
+
+.fifth-wrapper .left {
+  background-image: url("../apple-clone-repository/images/home/apple-tv-background.jpg");
+}
+.fifth-wrapper .right {
+  background-image: url("../apple-clone-repository/images/home/air-pods.jpg");
+  color: #fff;
+  background-size: initial;
+  background-color: black;
+  background-position: bottom;
+}
+.tvlogo {
+  padding-bottom: 10px;
+}
+.tvshowlogo {
+  padding: 180px 0 200px;
+}
+.watchtrailer a {
+  font-size: 0.85em;
+  text-decoration: none;
+}
+.watchtrailer a:hover{
+    text-decoration-line: underline;
+    color: black;
+}
+.title-5 {
+  font-size: 40px;
+  font-weight: bold;
+}
+.description-5 {
+  padding-top: 19px;
+  margin: 0 auto 20px;
+  font-size: 25px;
+}
+.r5-link a{
+    color: rgb(64, 4, 79);
+}
+.r5-link a:hover{
+    color: #fff;
+}
+
+/*Sixth Highlight Section */
+.sixth-heghlight-wrapper {
+	display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  background: #fff;
+}
+.sixth-heghlight-wrapper .left-side-wrapper {
+	background-image:  url('../apple-clone-repository/images/home/macbook-pro.jpg'); 
+	background-size: initial;
+	background-color: #fafafa;
+	background-position: bottom;
+}
+.sixth-heghlight-wrapper .right-side-wrapper {
+	background-image:  url('../apple-clone-repository/images/home/new-ipad.jpg'); 
+}
+.product-title-small {
+	font-weight: 700;
+	font-size: 45px;
+}
+
   max-width: 100%;
 }
 body {
@@ -20,11 +146,16 @@ body {
   margin: 0 auto;
 }
 
+
 /* Footer Styling */
 .footer-wrapper {
   background-color: #f5f5f7;
   color: #1d1d1f;
+
+  font-size: .65em;
+
   font-size: 0.65em;
+
 }
 .upper-text-container {
   border-bottom: 1px solid #d2d2d7;
@@ -32,6 +163,16 @@ body {
   padding: 17px 0 20px;
 }
 .upper-text-container a {
+
+	text-decoration: none;
+	color: #515154; 
+}
+.upper-text-container a:hover {
+	text-decoration: underline;
+}
+.footer-links-wrapper {
+	display: flex;
+
   text-decoration: none;
   color: #515154;
 }
@@ -40,11 +181,39 @@ body {
 }
 .footer-links-wrapper {
   display: flex;
+
   -webkit-box-pack: justify;
   justify-content: space-between;
   padding-top: 20px;
 }
 .footer-wrapper ul {
+
+	list-style: none;
+	padding-bottom: 20px;
+}
+.footer-wrapper ul li{
+	padding: 5px 0;
+	font-size: 0.9em;
+}
+.footer-links-wrapper a {
+	color: #515154;
+	text-decoration: none;
+}
+.footer-links-wrapper a:hover {
+	text-decoration: underline;
+}
+.footer-links-wrapper h3 {
+	font-size: 12px;
+	font-weight: 600;
+}
+.my-apple-wrapper {
+	border-bottom: 1px solid #d2d2d7;
+	padding-bottom: 10px;
+	margin-bottom: 10px; 
+}
+.copyright-wrapper {
+	display: flex;
+
   list-style: none;
   padding-bottom: 20px;
 }
@@ -70,6 +239,7 @@ body {
 }
 .copyright-wrapper {
   display: flex;
+
   -webkit-box-pack: justify;
   justify-content: space-between;
   padding: 10px 0 20px;
@@ -80,6 +250,54 @@ body {
   border-right: 1px solid #ccc;
 }
 .footer-links-terms ul li:last-child {
+
+	border-right: 0px;
+}
+.footer-links-terms ul li a {
+	text-decoration: none;
+	color: #515154;
+}
+.footer-links-terms ul li a:hover {
+	text-decoration: underline;
+}
+.footer-country {
+	display: inline-block;
+}
+.flag-wrapper {
+	display: inline-block;
+	vertical-align: middle;
+}
+.footer-country-name{
+	display: inline-block;
+	vertical-align: top;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   border-right: 0px;
 }
 .footer-links-terms ul li a {
@@ -135,3 +353,4 @@ body {
   font-weight: 700;
   font-size: 45px;
 }
+
